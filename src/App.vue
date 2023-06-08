@@ -1,5 +1,6 @@
 <script setup>
   import Cabecalho from './components/TheHeader.vue';
+  import Apresentacao from './components/TheMain.vue'
   import { onMounted } from 'vue'
   import { initFlowbite } from 'flowbite'
 
@@ -10,10 +11,16 @@
 
 <template>
   <div class="bg-fundo h-screen w-screen">
-    <header>
+    <header class="mb-10 md:mb-16">
       <Cabecalho />
     </header>
+    
     <RouterView />
+
+    <main >
+      <Apresentacao />
+    </main>
+    
   </div>
   
 </template>
