@@ -8,6 +8,7 @@ export default {
   theme: {
     colors: {
       fundo: '#1a1a1a',
+      funod2: '#222222',
       bordas: '#434343',
       preencimento: '#313131',
       texto: '#a4a4a4',
@@ -29,6 +30,7 @@ export default {
     extend: {},
   },
   plugins: [
-    require('flowbite/plugin')
+    require('flowbite/plugin'),
+    require("daisyui")
   ],
 }

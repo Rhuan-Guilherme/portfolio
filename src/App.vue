@@ -1,6 +1,7 @@
 <script setup>
   import Cabecalho from './components/TheHeader.vue';
-  import Apresentacao from './components/TheMain.vue'
+  import Apresentacao from './components/TheMain.vue';
+  import tecnoligas from './components/TheTecnologias.vue'
   import { onMounted } from 'vue'
   import { initFlowbite } from 'flowbite'
 
@@ -14,12 +15,16 @@
     <header class="mb-10 md:mb-16">
       <Cabecalho />
     </header>
-    
+
     <RouterView />
 
-    <main >
+    <main class="mb-12 md:mb-24">
       <Apresentacao />
     </main>
+
+    <section>
+      <tecnoligas />
+    </section>
     
   </div>
   
