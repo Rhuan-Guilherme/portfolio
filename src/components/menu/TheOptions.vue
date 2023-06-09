@@ -27,26 +27,17 @@
               <li>
                 <button
                   class="peer w-8 h-8 md:w-10 md:h-10 bg-preencimento rounded-full border-2 hover:bg-fundo transition-all border-bordas flex items-center justify-center bg-cover bg-center"
-                  style="
-                    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg');
-                  "
-                ></button>
+                ><img class="w-full" src="../img/brazil.svg" alt="Bandeira do Brasil"></button>
               </li>
               <li>
                 <button
                   class="peer w-8 h-8 md:w-10 md:h-10 bg-preencimento rounded-full border-2 hover:bg-fundo transition-all border-bordas flex items-center justify-center bg-cover bg-center"
-                  style="
-                    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/800px-Flag_of_the_United_States.svg.png');
-                  "
-                ></button>
+                ><img class="w-full" src="../img/united states.svg" alt="Bandeira do Estados Unidos"></button>
               </li>
               <li>
                 <button
                   class="peer w-8 h-8 md:w-10 md:h-10 bg-preencimento rounded-full border-2 hover:bg-fundo transition-all border-bordas flex items-center justify-center bg-cover bg-center"
-                  style="
-                    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg');
-                  "
-                ></button>
+                ><img class="w-full" src="../img/spain.svg" alt="Bandeira da Espanha"></button>
               </li>
             </ul>
           </div>

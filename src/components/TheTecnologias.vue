@@ -32,27 +32,27 @@
       </div>
     </div>
 
-    <div class="hidden md:flex px-4 gap-3 xl:gap-10">
-      <div class="bg-fundo rounded-lg p-2">
-        <img src="./img/icons8-vue-js 1.png" class="rounded-box" />
+    <div class="hidden md:flex p-4 gap-3 ">
+      <div class="rounded-lg p-2 w-32">
+        <img src="./img/icons8-vue-js 1.png" class="rounded-box hover:scale-105 transition-all" />
       </div>
-      <div class="bg-fundo rounded-lg p-2">
-        <img src="./img/icons8-tailwind-css 1.png" class="rounded-box" />
+      <div class="rounded-lg p-2 w-32">
+        <img src="./img/icons8-tailwind-css 1.png" class="rounded-box hover:scale-105 transition-all" />
       </div>
-      <div class="bg-fundo rounded-lg p-2">
-        <img src="./img/icons8-bootstrap 1.png" class="rounded-box" />
+      <div class="rounded-lg p-2 w-32">
+        <img src="./img/icons8-bootstrap 1.png" class="rounded-box hover:scale-105 transition-all" />
       </div>
-      <div class="bg-fundo rounded-lg p-2">
-        <img src="./img/icons8-figma 1.png" class="rounded-box" />
+      <div class="rounded-lg p-2 w-32">
+        <img src="./img/icons8-figma 1.png" class="rounded-box hover:scale-105 transition-all" />
       </div>
-      <div class="bg-fundo rounded-lg p-2">
-        <img src="./img/icons8-javascript 1.png" class="rounded-box" />
+      <div class="rounded-lg p-2 w-32">
+        <img src="./img/icons8-javascript 1.png" class="rounded-box hover:scale-105 transition-all" />
       </div>
-      <div class="bg-fundo rounded-lg p-2">
-        <img src="./img/icons8-html 1.png" class="rounded-box" />
+      <div class="rounded-lg p-2 w-32">
+        <img src="./img/icons8-html 1.png" class="rounded-box hover:scale-105 transition-all" />
       </div>
-      <div class="bg-fundo rounded-lg p-2">
-        <img src="./img/icons8-css3 1.png" class="rounded-box" />
+      <div class="rounded-lg p-2 w-32">
+        <img src="./img/icons8-css3 1.png" class="rounded-box hover:scale-105 transition-all" />
       </div>
     </div>
   </div>

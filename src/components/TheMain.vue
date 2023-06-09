@@ -21,7 +21,7 @@ import { RouterLink } from 'vue-router';
     </div>
 
     <div class="flex items-center justify-center">
-        <RouterLink to="/" class="bg-preencimento border-2 inline-block hover:bg-fundo transition-all border-bordas text-texto py-1 px-5 lg:py-2 lg:px-6 lg:text-lg rounded-md font-bold uppercase">Projetos <span class="ml-2">➝</span></RouterLink>
+        <RouterLink to="/" class="bg-preencimento border-2 inline-block hover:bg-fundo transition-all border-bordas text-texto py-1 px-5 lg:py-2 lg:px-6 lg:text-lg rounded-md font-bold uppercase hover:scale-105">Projetos <span class="ml-2">➝</span></RouterLink>
     </div>
   </section>
 </template>
