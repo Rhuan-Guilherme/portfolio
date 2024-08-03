@@ -23,13 +23,15 @@ const Header = () => {
   }, [theme]);
 
   return (
-    <header className="flex justify-between items-center h-16 px-56 shadow-md">
-      <div className="logo">LOGO</div>
-      <ul className="flex gap-5 font-Roboto font-medium text-cinza-500 dark:text-cinza-300">
+    <header className="flex justify-between items-center h-16 w-full px-56 shadow-md fixed z-10">
+      <div className="logo text-cinza-500 dark:text-cinza-200">LOGO</div>
+      <ul className="flex gap-5 font-Roboto font-medium text-cinza-500 dark:text-cinza-200">
         <li>Inicio</li>
         <li>Skills</li>
         <li>Projetos</li>
-        <li onClick={toogleTheme}>Contato</li>
+        <li onClick={toogleTheme} className="cursor-pointer">
+          Contato
+        </li>
       </ul>
     </header>
   );
