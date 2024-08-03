@@ -1,0 +1,7 @@
+body {
+  @apply bg-cinza-50;
+}
+
+body.dark {
+  @apply bg-cinza-950;
+}
